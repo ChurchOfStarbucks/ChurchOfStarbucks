@@ -66,13 +66,15 @@ document.write(document.URL);
 document.write("<br>");	
 document.write(document.URL.substring(20));	  
 document.write("<br>");	
-document.write(document.URL.substring(20,1));	  
 //document.write(document.URL);	
 //document.write(document.referrer);	
-if (document.referrer !== "https://t.co/7VLXlpXqIB" && document.referrer.substr(0,21) !== "http://richgriese.net") {
+if (document.referrer !== "https://t.co/nKmIz0llUS" && document.referrer.substr(0,19) !== "http://webulite.com") {
 //    window.location.href = "https://twitter.com/RichGriese";
   if (document.URL.substring(20,1) == "?") {  
   window.location.href = "https://hack.chat/"+document.URL.substring(20);
+  } else {
+  window.location.href = "https://twitter.com/webulite";
+  }
 }
 }
 </script>
