@@ -1,0 +1,183 @@
+
+
+
+#owned-channel-list .tooltip-item {
+  display:none;
+  visibility:hidden;
+}
+
+
+
+.owned-channel-list {
+  display:none;
+}
+#owned-channel-list {
+  display:none;
+}
+
+
+
+.tooltip-item owner{
+  display: none;
+}
+#tooltip-item owner{
+  display: none;
+}
+
+
+
+
+
+.ownership-status {
+  display: none;
+}
+#ownership-status {
+  display: none;
+}
+
+
+
+
+
+
+
+.owner-intro {
+  display:none;
+}
+#owner-intro {
+  display:none;
+}
+.owner-status {
+  display:none;
+}
+#owner-status {
+  display:none;
+}
+
+
+.become-owner {
+  display:none;
+}
+#become-owner {
+  display:none;
+}
+
+.owners-list {
+  display:none;
+}
+#owners-list {
+  display:none;
+}
+
+
+
+
+
+.fb-button {
+  display: none;
+}
+    
+
+#fb-button {
+  display: none;
+}
+
+
+//.twitter-button {
+//  display: none;
+//}
+
+//#twitter-button {
+//  display: none;
+//}
+
+#join-hint {
+  display: none;
+    }
+
+
+.join-hint {
+  display: none;
+    }
+
+    
+    
+    
+.header {
+//  display: none;
+}
+.header-bar {
+//  display: none;
+}
+.header-channel {
+//display: none;
+//visibility:hidden;  
+}
+
+
+//.header-channel:before {
+//  content: "c";
+//}
+.header-channel:after {
+  content: " forum / chat";
+}
+
+
+//.header-avatar {
+//  display: none;
+//}
+
+#load-button {
+  display: none;
+}
+
+#admin-button {
+//  display: none;
+}
+
+.info {
+  display: none;
+}
+
+.aside {
+//  display: none;
+}  
+
+.admin-settings {
+//  display: none;
+}  
+
+.user-settings {
+//  display: none;
+}  
+
+
+.panel-button {
+  display: none;
+}
+
+
+.live {
+  width: 100%;
+} 
+
+.counter {
+//  display: none;
+}
+
+.share_button {
+  display: none;
+}
+#share_button {
+  display: none;
+}
+
+
+
+.admin-button {
+  display: none;
+}
+#admin-button {
+  display: none;
+}
+
