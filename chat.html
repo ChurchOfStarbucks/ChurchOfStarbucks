@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <title>chat</title>
+  <link rel="stylesheet" href="https://hack.chat/style.css">
+<!--
+  <link rel="apple-touch-icon" sizes="57x57" href="https://hack.chat/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="https://hack.chat/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="https://hack.chat/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="https://hack.chat/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="https://hack.chathttps://hack.chat/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="https://hack.chat/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="https://hack.chat/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="https://hack.chat/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="https://hack.chat/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="https://hack.chat/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="https://hack.chat/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="https://hack.chat/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="https://hack.chat/favicon-16x16.png">
+-->
+<link rel="manifest" href="https://hack.chat/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="https://hack.chat/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="stylesheet" href="https://hack.chat/katex/katex.min.css">
+  <link id="scheme-link" rel="stylesheet" href="https://richgriese.net/schemes/atelier-dune.css">
+  <script src="https://hack.chat/katex/katex.min.js"></script>
+  <script src="https://hack.chat/katex/contrib/auto-render.min.js"></script>
+  <link id="highlight-link" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/hybrid.min.css">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+</head>
+
+<body>
+    <article class="container">
+    <div id="messages" class="messages"></div>
+  </article>
+  <footer id="footer">
+    <div class="container">
+      <form id="chatform" class="messages">
+        <textarea id="chatinput" type="text" autocomplete="off" autofocus></textarea>
+      </form>
+    </div>
+  </footer>
+  <nav id="sidebar">
+    <div id="sidebar-content" class="hidden">
+      <p>
+        <input id="pin-sidebar" type="checkbox">
+        <label for="pin-sidebar">Pin sidebar</label>
+      </p>
+      <h4>Settings</h4>
+      <p>
+        <input id="joined-left" type="checkbox" checked>
+        <label for="joined-left">Join/left notify</label>
+      </p>
+      <p>
+        <input id="parse-latex" type="checkbox" checked>
+        <label for="parse-latex">Parse LaTeX</label>
+      </p>
+      <p>
+        <button id="clear-messages">Clear messages</button>
+      </p>
+      <h4>Color scheme</h4>
+      <select id="scheme-selector"></select>
+      <p>
+        <input id="syntax-highlight" type="checkbox" checked>
+        <label for="syntax-highlight">Syntax Highlight</label>
+      </p>
+      <h4>Highlight scheme</h4>
+      <select id="highlight-selector"></select>
+      <h4>Users online</h4>
+      <p>(Click user to invite)</p>
+      <ul id="users"></ul>
+    </div>
+  </nav>
+  <script src="chat-client.js"></script>
+</body>
+
+<audio id="audio" src="beep.mp3" autostart="false" ></audio>
+
+</html>
