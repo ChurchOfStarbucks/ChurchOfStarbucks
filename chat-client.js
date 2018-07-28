@@ -113,7 +113,7 @@ var COMMANDS = {
 
 		pushMessage({ nick: '*', text: "Welcome to the http://webulite.com chat." });
 
-		pushMessage({ nick: '*', text: "If there is nobody around at the moment, try tweeting at https://twitter.com/webulite, letting folks know you are here, and giving others a little time to show up." });
+//		pushMessage({ nick: '*', text: "If there is nobody around at the moment, try tweeting at https://twitter.com/webulite, letting folks know you are here, and giving others a little time to show up." });
 		
 		pushMessage({ nick: '*', text: "Users online: " + nicks.join(", ") })
 
@@ -127,7 +127,7 @@ var COMMANDS = {
 
 		if ($('#joined-left').checked) {
 			pushMessage({ nick: '*', text: nick + " joined" });
-			beep();
+//			beep();
 		}
 	},
 
@@ -138,7 +138,7 @@ var COMMANDS = {
 
 		if ($('#joined-left').checked) {
 			pushMessage({ nick: '*', text: nick + " left" });
-			beep();
+//			beep();
 		}
 	},
 
@@ -167,7 +167,7 @@ function pushMessage(args) {
 	}
 
 
-beep();
+//beep();
 
 	// Nickname
 	var nickSpanEl = document.createElement('span');
