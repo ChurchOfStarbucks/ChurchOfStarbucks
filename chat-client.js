@@ -111,8 +111,10 @@ var COMMANDS = {
 			userAdd(nick);
 		});
 
-		pushMessage({ nick: '*', text: "Welcome to the http://webulite.com chat. If there is nobody around at the moment, try tweeting at https://twitter.com/webulite, letting folks know you are here, and giving others a little time to show up." });
+		pushMessage({ nick: '*', text: "Welcome to the http://webulite.com chat." });
 
+		pushMessage({ nick: '*', text: "If there is nobody around at the moment, try tweeting at https://twitter.com/webulite, letting folks know you are here, and giving others a little time to show up." });
+		
 		pushMessage({ nick: '*', text: "Users online: " + nicks.join(", ") })
 
 
