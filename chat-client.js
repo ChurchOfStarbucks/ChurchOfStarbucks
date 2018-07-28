@@ -113,7 +113,7 @@ var COMMANDS = {
 
 		pushMessage({ nick: '*', text: "Users online: " + nicks.join(", ") })
 
-		pushMessage({ nick: '*', text: "welcome to the chat of http://webulite.com" });
+		pushMessage({ nick: '*', text: "Welcome to the chat of http://webulite.com. Speak up... you may receive an invite to additional channels." });
 
 	},
 
