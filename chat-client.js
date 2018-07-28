@@ -111,9 +111,10 @@ var COMMANDS = {
 			userAdd(nick);
 		});
 
+		pushMessage({ nick: '*', text: "Welcome to the entry channel of of the http://webulite.com community." });
+
 		pushMessage({ nick: '*', text: "Users online: " + nicks.join(", ") })
 
-		pushMessage({ nick: '*', text: "Welcome to the entry channel of of the http://webulite.com community. Speak up to get folks attention." });
 
 	},
 
