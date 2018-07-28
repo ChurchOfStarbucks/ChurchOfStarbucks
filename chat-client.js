@@ -113,7 +113,7 @@ var COMMANDS = {
 
 		pushMessage({ nick: '*', text: "Users online: " + nicks.join(", ") })
 
-		pushMessage({ nick: '*', text: "Welcome to the entry channel of of the http://webulite.com community. Speak up, and you may receive an invite to additional channels, and potentially even http://webulite.slack.com" });
+		pushMessage({ nick: '*', text: "Welcome to the entry channel of of the http://webulite.com community. Speak up to receive an invite to additional channels, and eventually http://webulite.slack.com" });
 
 	},
 
