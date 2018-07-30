@@ -31,14 +31,7 @@ var lastSent = [""];
 var lastSentPos = 0;
 
 function join(channel) {
-//	if (document.domain == 'hack.chat') {
-		// For https://hack.chat/
 		ws = new WebSocket('wss://hack.chat/chat-ws');
-//	} else {
-		// for local installs
-//		ws = new WebSocket('ws://' + document.domain + ':6060');
-//	}
-
 	var wasConnected = false;
 
 	ws.onopen = function () {
@@ -47,11 +40,6 @@ function join(channel) {
 				myNick = location.hash.substr(1);
 			} else {
 				myNick = prompt('What\'s your first name:', myNick);
-//myNick = 'Guest_'+Math.floor((Math.random() * 100) + 1);
-//if (myNick = '7297') {
-////	myNick = "Rich_"+Math.floor((Math.random() * 100) + 1);
-//	myNick = "Rich";	
-//}
 			}
 		}
 
@@ -113,8 +101,6 @@ var COMMANDS = {
 
 		pushMessage({ nick: '*', text: "Welcome to the http://webulite.com chat." });
 
-//		pushMessage({ nick: '*', text: "If there is nobody around at the moment, try tweeting at https://twitter.com/webulite, letting folks know you are here, and giving others a little time to show up." });
-		
 		pushMessage({ nick: '*', text: "Users online: " + nicks.join(", ") })
 
 
