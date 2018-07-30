@@ -302,14 +302,9 @@ function updateTitle() {
 	var title;
 	if (myChannel == TheChannel) {
 //		title = "?" + myChannel;
-//		title = "RichGriese.NET/chat";
-		title = "Chat - RichGriese.NET";		
+		title = "Chat - webulite.com";		
 	} else {
-//		title = "hack.chat";
-//title = "chat";
-//title = "?"+myChannel;		
 title = "?"+myChannel;				
-
 	}
 
 	if (unread > 0) {
