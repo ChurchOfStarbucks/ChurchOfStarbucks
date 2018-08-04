@@ -100,7 +100,7 @@ var COMMANDS = {
 			userAdd(nick);
 		});
 
-		pushMessage({ nick: '*', text: "Welcome to a http://ChurchOfStarbucks.NET private chat." });
+		pushMessage({ nick: '*', text: "Welcome to a http://ChurchOfStarbucks.NET chat." });
 
 		pushMessage({ nick: '*', text: "Users online: " + nicks.join(", ") })
 
@@ -289,7 +289,8 @@ function updateTitle() {
 	var title;
 	if (myChannel == TheChannel) {
 //		title = "?" + myChannel;
-		title = "Chat - ChurchOfStarbucks.NET";		
+//		title = "Chat - ChurchOfStarbucks.NET";		
+		title = "Church Of Starbucks";		
 	} else {
 title = "?"+myChannel;				
 	}
