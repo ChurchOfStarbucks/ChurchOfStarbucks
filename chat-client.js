@@ -100,7 +100,7 @@ var COMMANDS = {
 			userAdd(nick);
 		});
 
-		pushMessage({ nick: '*', text: "Welcome to a http://ChurchOfStarbucks.NET secret chat." });
+		pushMessage({ nick: '*', text: "Welcome to a http://ChurchOfStarbucks.NET private chat." });
 
 		pushMessage({ nick: '*', text: "Users online: " + nicks.join(", ") })
 
