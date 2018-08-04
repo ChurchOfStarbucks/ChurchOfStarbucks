@@ -24,7 +24,7 @@ var ws;
 var myNick = localStorageGet('my-nick');
 var myChannel = window.location.search.replace(/^\?/, '');
 if (!myChannel) {
-	window.location = "https://twitter.com/webulite";	
+	window.location = "https://twitter.com/ChurchOfStarbucks";	
 	var myChannel = TheChannel;
 }
 
@@ -100,7 +100,7 @@ var COMMANDS = {
 			userAdd(nick);
 		});
 
-		pushMessage({ nick: '*', text: "Welcome to the http://webulite.com chat." });
+		pushMessage({ nick: '*', text: "Welcome to the http://ChurchOfStarbucks.NET chat." });
 
 		pushMessage({ nick: '*', text: "Users online: " + nicks.join(", ") })
 
@@ -289,7 +289,7 @@ function updateTitle() {
 	var title;
 	if (myChannel == TheChannel) {
 //		title = "?" + myChannel;
-		title = "Chat - webulite.com";		
+		title = "Chat - ChurchOfStarbucks.NET";		
 	} else {
 title = "?"+myChannel;				
 	}
