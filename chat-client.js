@@ -24,7 +24,7 @@ var ws;
 var myNick = localStorageGet('my-nick');
 var myChannel = window.location.search.replace(/^\?/, '');
 if (!myChannel) {
-	window.location = "https://twitter.com/ChurchStarbucks";	
+//	window.location = "https://twitter.com/ChurchStarbucks";	
 	var myChannel = TheChannel;
 }
 
