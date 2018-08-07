@@ -6,8 +6,18 @@
 <meta charset="UTF-8" />
 <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2">
+
+<script>
+function blinktext() {
+  var f = document.getElementById('announcement');
+  setInterval(function() {
+    f.style.visibility = (f.style.visibility == 'hidden' ? '' : 'hidden');
+  }, 1000);
+}
+</script>	
+	
 </head>
-<body>
+<body onload="blinktext()";>
 <div id="body">  
 
 <div style="float; margin-bottom:40px;"></div>  
@@ -16,7 +26,7 @@
 	
 <div style="float; margin-bottom:-25px;"></div>  
 <center>
-	<h2><blink>Coming soon!</blink></h2>
+	<h2><div id="announcement">Coming soon!</div></h2>
 </center>
 
 	<!--	
