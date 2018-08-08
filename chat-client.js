@@ -35,7 +35,7 @@ for( var i=0; i < len; i++ )
   text += charset.charAt(Math.floor(Math.random() * charset.length));
 
 myChannel = text;
-window.location = "https://ChurchStarbucks.NET?"+myChannel;	
+window.location = "https://ChurchOfStarbucks.NET?"+myChannel;	
 
 }
 
