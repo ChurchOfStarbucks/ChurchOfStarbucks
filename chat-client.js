@@ -124,7 +124,7 @@ var COMMANDS = {
 
 		if ($('#joined-left').checked) {
 			pushMessage({ nick: '*', text: nick + " joined" });
-//			beep();
+			ring();
 		}
 	},
 
@@ -620,5 +620,8 @@ function beep() {
   }
 
 
-
+function ring() {
+      var sound = document.getElementById("ring");
+      sound.play()
+  }
 
