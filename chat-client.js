@@ -135,7 +135,7 @@ var COMMANDS = {
 
 		if ($('#joined-left').checked) {
 			pushMessage({ nick: '*', text: nick + " left" });
-//			beep();
+			beep();
 		}
 	},
 
@@ -164,7 +164,7 @@ function pushMessage(args) {
 	}
 
 
-//beep();
+beep();
 
 	// Nickname
 	var nickSpanEl = document.createElement('span');
@@ -303,7 +303,7 @@ function updateTitle() {
 		title = "Church Of Starbucks";		
 	} else {
 //		title = "?"+myChannel;				
-		title = "Church Of Starbucks | ?"+myChannel";		
+		title = "Church Of Starbucks | ?"+myChannel;		
 	}
 
 	if (unread > 0) {
