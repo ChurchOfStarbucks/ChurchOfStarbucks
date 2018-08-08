@@ -26,15 +26,15 @@ var myChannel = window.location.search.replace(/^\?/, '');
 if (!myChannel) {
 
 //	window.location = "https://twitter.com/ChurchStarbucks";	
-	var myChannel = TheChannel;
+//	var myChannel = TheChannel;
 // generate channel
-//var len = 13;
-//var text = "";
-//var charset = "abcdefghijklmnopqrstuvwxyz0123456789";
-//for( var i=0; i < len; i++ )
-//  text += charset.charAt(Math.floor(Math.random() * charset.length));
-//myChannel = text;
-//window.location = "https://ChurchOfStarbucks.NET/chat?"+myChannel;	
+var len = 13;
+var text = "";
+var charset = "abcdefghijklmnopqrstuvwxyz0123456789";
+for( var i=0; i < len; i++ )
+  text += charset.charAt(Math.floor(Math.random() * charset.length));
+myChannel = text;
+window.location = "https://ChurchOfStarbucks.NET/chat?"+myChannel;	
 
 }
 
@@ -302,7 +302,8 @@ function updateTitle() {
 //		title = "Chat - ChurchOfStarbucks.NET";		
 		title = "Church Of Starbucks";		
 	} else {
-title = "?"+myChannel;				
+//		title = "?"+myChannel;				
+		title = "?"+myChannel+" | Church Of Starbucks";		
 	}
 
 	if (unread > 0) {
