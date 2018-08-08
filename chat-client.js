@@ -303,7 +303,7 @@ function updateTitle() {
 		title = "Church Of Starbucks";		
 	} else {
 //		title = "?"+myChannel;				
-		title = "?"+myChannel+" | Church Of Starbucks";		
+		title = "Church Of Starbucks | ?"+myChannel";		
 	}
 
 	if (unread > 0) {
