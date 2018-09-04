@@ -1,0 +1,50 @@
+.cloud
+{
+    position: relative;
+    top: 0px;
+}    
+</style>
+	
+<style>
+a {
+	text-decoration: none;
+  color: #3ca2c3;
+}
+a:visited {
+	text-decoration: none;
+  color: #3ca2c3;
+}
+a:hover {
+	color: red;
+}
+a:focus {
+	color: red;
+}
+body {
+  font-family: Arial, Sans-Serif;
+}
+#body {
+  width: 75%;
+  margin:0 auto;
+  text-align: left;
+}  
+p {
+  font-family: "Arial", sans-serif;
+  color: #808080;
+  font-size: 1.125em;
+}  
+h1, h2, h3 {
+  color: #808080;
+}  
+
+h1 { font-weight: bold; color: #808080; font-size: 3em; }	
+	
+</style>      
+
+	
+<style>
+.tlk
+{
+    position: relative;
+    top: -2px;
+}    
